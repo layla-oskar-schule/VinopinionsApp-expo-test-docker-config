@@ -3,8 +3,6 @@ services:
   api:
     container_name: vinopinionsapp-expo-test
     image: ghcr.io/layla-oskar-schule/vinopinionsapp-expo:staging
-    env_file:
-      - .env
     networks:
       - server
 
